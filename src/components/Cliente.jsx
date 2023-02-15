@@ -1,6 +1,6 @@
 import React from "react";
 
-const Clientes = ({ cliente }) => {
+const Cliente = ({ cliente }) => {
   const { nombre, empresa, email, telefono, id } = cliente;
 
   return (
@@ -31,4 +31,4 @@ const Clientes = ({ cliente }) => {
   );
 };
 
-export default Clientes;
+export default Cliente;
