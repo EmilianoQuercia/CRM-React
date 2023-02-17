@@ -9,10 +9,8 @@ export function loader(){
 
 
 const Index = () => {
-
     const clientes = useLoaderData();
  
-
     return (
         <>
             <h1 className='font-black text-4xl text-blue-900'>Clientes</h1>
